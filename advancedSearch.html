@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="cornerLinks">
+            <a href="search.html">Google Search</a>
+        </div>
+
+        <div class="topLabel">
+            <label style="margin-left: 10px;">Advanced Search</label>
+        </div>
+
+        <div class="borderLine"></div>
+
+        <div class="main">
+            <span class="uselessLabel">Find pages with...</span>
+
+            <form action="https://google.com/search">
+                <div>
+                    <label class="inputLabel">all these words:</label>
+                    <input class="textinput" type="text" name="as_q">
+                </div>
+                
+                <div>
+                    <label class="inputLabel">this exact word or phrase:</label>
+                    <input class="textinput" type="text" name="as_epq">
+                </div>
+
+                <div>
+                    <label class="inputLabel">any of these words:</label>
+                    <input class="textinput" type="text" name="as_oq">
+                </div>
+
+                <div>
+                    <label class="inputLabel">none of these words:</label>
+                    <input class="textinput" type="text" name="as_eq">
+                </div>
+
+                <div class="buttonRow">
+                    <input class="advSearchButton" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+        
+    </body>
+</html>

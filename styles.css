@@ -1,0 +1,120 @@
+#cornerLinks {
+  text-align: right;
+}
+
+#inputs {
+  text-align: center;
+  margin: 100pxpx;
+}
+
+.logo {
+  height: 275px;
+  width: 500px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+
+.imageSpan {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: relative;
+  left: 400px;
+  top: -80px;
+  white-space: nowrap;
+}
+
+.topLabel {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+.borderLine {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.uselessLabel {
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  font-size: 16px;
+  min-height: 42px;
+  font-weight: 500;
+  color: #333;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+.inputLabel {
+  height: 30px;
+  margin: 3px 10px 3px 45px;
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: 13px;
+  min-width: 167px;
+  width: 16%;
+  line-height: 16px;
+  font-family: Arial;
+}
+
+.textinput {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  padding: 1px 8px;
+  min-width: 167px;
+  min-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  margin: 10px;
+}
+
+.buttonRow {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.advSearchButton {
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  padding: 12px;
+}
+
+.searchBar {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  height: 44px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 584px;
+  min-width: 200px;
+}
+
+.searchButton {
+ background-color: #f8f9fa;
+ border: 1px solid #f8f9fa;
+ border-radius: 4px;
+ color: #3c4043;
+ font-family: Roboto,arial,sans-serif;
+ font-size: 14px;
+ margin: 11px 4px;
+ padding: 0 16px;
+ line-height: 27px;
+ height: 36px;
+ min-width: 54px;
+ text-align: center;
+
+}
+/*# sourceMappingURL=styles.css.map */
